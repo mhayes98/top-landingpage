@@ -2,7 +2,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    border: 4px solid red;
 }
 
 ul {
@@ -19,6 +18,16 @@ header {
     background-color: #1f2937;
 }
 
+footer {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
 h1 {
     display: flex;
     flex-direction: row;
@@ -26,7 +35,7 @@ h1 {
     justify-content: center;
     margin: auto;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 h2 {
@@ -46,9 +55,10 @@ h3 {
 
 nav {
     display: flex;
-    flex: 1;
-    justify-content: space-around;;
+    justify-content: center;
     margin: auto;
+    margin-left: 33%;
+    flex: 1;
 }
 
 .logo_wrapper {
@@ -92,11 +102,11 @@ button {
     padding: 5px;
     font-weight: bold;
     font-size: 12px;
+    width: 75px;
 }
 
 button#header_button {
     border: none;
-    width: 100px;
 }  
 
 .image_wrapper {
@@ -113,12 +123,16 @@ figcaption {
     text-align: center;
 }
 
+section#section_one {
+    padding: 25px;
+}
+
 section#section_two {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #E5E7EB
+    background: #E5E7EB;
 }
 
 p#quote_full {
@@ -141,4 +155,51 @@ p#quote_author {
     flex-direction: column;
     max-width: 550px;
     margin: 55px;
+}
+
+section#section_three {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.sign_up_wrapper {
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    padding: 35px;
+    margin: 25px;
+    width: 750px;
+    height: 75px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #3882F6;
+}
+
+.sign_up_info {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 550px;
+    align-items: flex-start;
+    color: white;
+}
+
+button#section_three_button {
+    border-color: white;
+}
+
+h4 {
+    display: flex;
+    margin: 0px;
+    font-size: 20px;
+}
+
+p#sign_up_details {
+    display: flex;
+    margin: 0px;
+    color: rgb(230, 229, 229)
+    font-size: 15px;
 }
